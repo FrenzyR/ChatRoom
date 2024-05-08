@@ -81,6 +81,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dump-users-202405082329.sql" />
     <Content Include="Properties\VergaraRodriguezRuben-Anteproyecto-ProyectoCurro - Documentos de Google.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

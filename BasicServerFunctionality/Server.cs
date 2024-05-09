@@ -10,7 +10,7 @@ namespace BasicServerFunctionality
     internal class Server
     {
         
-        public void Init()
+        public void Init()//TODO comprobacion puerto libre
         {
             SignUpAndSignIn attempt = new SignUpAndSignIn();
             IPEndPoint ipEndPoint = new IPEndPoint (IPAddress.Any, 31416);
@@ -24,7 +24,7 @@ namespace BasicServerFunctionality
             while (true)
             {
                 Socket socketClient = socket.Accept();
-                Thread thread = new Thread(clientThread);
+                Thread thread = new Thread(ClientThread);
                 thread.Start(socketClient);
 
             }
@@ -33,7 +33,7 @@ namespace BasicServerFunctionality
 
         }
 
-        static void clientThread(object socket)
+        static void ClientThread(object socket)
         {
             SignUpAndSignIn signUpAndSignIn = new SignUpAndSignIn();
             string message;
@@ -55,11 +55,20 @@ namespace BasicServerFunctionality
                     streamWriter.Flush();
                     try
                     {
-                        message = streamReader.ReadLine();
-                        streamWriter.WriteLine(message);
+                        
+                        try
+                        {
+                            message = streamReader.ReadLine();
+                            streamWriter.WriteLine(message);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e);
+                            break;
+                        }
                         streamWriter.Flush();
 
-                        if (message.ToLower() == "sign" || message.ToLower() == "sign-in" || message.ToLower() == "sign in" || message.ToLower() == "s")
+                        if (message != null && (message.ToLower() == "sign" || message.ToLower() == "sign-in" || message.ToLower() == "sign in" || message.ToLower() == "s"))
                         {
                             streamWriter.WriteLine("Give me your username");
                             streamWriter.Flush();
@@ -70,8 +79,15 @@ namespace BasicServerFunctionality
 
                             if(signUpAndSignIn.SignIn(user, password))
                             {
-                                streamWriter.WriteLine("Very well, you have logged in");
+                                streamWriter.WriteLine("Very well, you have logged in as: " + user);
                                 streamWriter.Flush();
+                                while (true)
+                                {
+                                    streamWriter.WriteLine("Send message: ");
+                                
+                                    streamWriter.WriteLine(user+":" + streamReader.ReadLine());
+                                    streamWriter.Flush();
+                                }
                             }
                             else
                             {

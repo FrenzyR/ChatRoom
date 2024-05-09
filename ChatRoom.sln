@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatroomWithUserIdentification", "ChatroomWithUserIdentification\ChatroomWithUserIdentification.csproj", "{034B89FC-76C3-489B-8CAB-70EBF3118834}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicServerFunctionality", "BasicServerFunctionality\BasicServerFunctionality.csproj", "{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}"
@@ -16,9 +19,16 @@ Global
 		{034B89FC-76C3-489B-8CAB-70EBF3118834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034B89FC-76C3-489B-8CAB-70EBF3118834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034B89FC-76C3-489B-8CAB-70EBF3118834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

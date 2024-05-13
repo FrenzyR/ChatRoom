@@ -12,28 +12,25 @@ namespace BasicServerFunctionality
 {
     internal class Server
     {
-        private static readonly object LockObject = new object();
+        private static readonly object lockObject = new object();
         private static readonly Dictionary<Socket, StreamWriter> StreamWriterBySocket = new Dictionary<Socket, StreamWriter>();
         private static readonly Dictionary<Socket, string> UserBySocket = new Dictionary<Socket, string>();
         public void Init()
         {
-            SignUpAndSignIn attempt = new SignUpAndSignIn();
             int startingPort = 31416;
 
-            bool portFound = false;
+            bool portFound = false; 
             int port = startingPort;
             Socket socket = null;
 
+            IPEndPoint ipEndPoint = null;
             while (!portFound && port < 65536 && port > -1)
             {
+                
                 try
                 {
-                    var ipEndPoint = new IPEndPoint(IPAddress.Any, port);
-                    socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                    socket.Bind(ipEndPoint);
-                    socket.Listen(10);
+                    ipEndPoint = new IPEndPoint(IPAddress.Any, port);
                     portFound = true;
-                    Console.WriteLine($"Server started on port {port}");
                 }
                 catch (SocketException)
                 {
@@ -41,19 +38,27 @@ namespace BasicServerFunctionality
                     port++;
                 }
             }
-
             if (!portFound)
             {
                 Console.WriteLine("No available port found.");
                 return;
             }
 
-            while (true)
+            using (socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
             {
-                Socket socketClient = socket.Accept();
-                Thread thread = new Thread(ClientThread);
-                thread.Start(socketClient);
+                socket.Bind(ipEndPoint);
+                socket.Listen(100);
+                Console.WriteLine($"Server started on port {port}");
+                Thread thread;
+                while (true)
+                {
+                    Socket socketClient = socket.Accept();
+                    thread = new Thread(() => ClientThread(socketClient));
+                    thread.Start();
+                }
             }
+            
+            
         }
 
         static void ClientThread(object socket)
@@ -61,7 +66,7 @@ namespace BasicServerFunctionality
             
 
             SignUpAndSignIn signUpAndSignIn = new SignUpAndSignIn();
-            string message;
+            string message = "";
             Socket client = (Socket)socket;
             IPEndPoint ipEndpointClient = (IPEndPoint)client.RemoteEndPoint;
             Console.WriteLine("Connected with client {0} at port {1}",
@@ -77,7 +82,7 @@ namespace BasicServerFunctionality
                 string user;
                 string password;
 
-                while (true)
+                while (message != "exit")
                 {
                     streamWriter.WriteLine(welcome);
                     streamWriter.Flush();
@@ -111,10 +116,15 @@ namespace BasicServerFunctionality
                                 streamWriter.Flush();
                                 while (true)
                                 {
-                                    streamWriter.WriteLine("Send message: ");
+                                    streamWriter.WriteLine("Send message: \n'exit' to leave");
                                     streamWriter.Flush();
-                                    message = user+":"+streamReader.ReadLine();
-                                    SendMessageToAnotherUsers(message, client);
+                                    message = streamReader.ReadLine();
+                                    if (message == "exit")
+                                    {
+                                        break;
+                                        
+                                    }
+                                    SendMessageToAnotherUsers(user+":"+message, client);
 
                                 }
                             }
@@ -157,6 +167,9 @@ namespace BasicServerFunctionality
                         break;
                     }
                 }
+                SendMessageToAnotherUsers($@"Has been disconnected", client);
+                DeleteClientEndPointToAllCollections(client);
+                Console.WriteLine("Client disconnected.");
                 Console.WriteLine("Finished connection with {0}:{1}",
                 ipEndpointClient.Address, ipEndpointClient.Port);
             }
@@ -168,7 +181,7 @@ namespace BasicServerFunctionality
             var anotherStreamWriterNotOfMe = new Dictionary<Socket, StreamWriter>();
             var username = "";
 
-            lock (LockObject)
+            lock (lockObject)
             {
                 foreach (var pair in StreamWriterBySocket)
                 {
@@ -192,10 +205,18 @@ namespace BasicServerFunctionality
 
         private static void AddClientEndPointToCollections(Socket client, NetworkStream networkStream)
         {
-            lock (LockObject)
+            lock (lockObject)
             {
                 var streamWriter = new StreamWriter(networkStream, Encoding.UTF8);
                 StreamWriterBySocket.Add(client, streamWriter);
+            }
+        }
+        private static void DeleteClientEndPointToAllCollections(Socket socketClient)
+        {
+            lock (lockObject)
+            {
+                StreamWriterBySocket.Remove(socketClient);
+                UserBySocket.Remove(socketClient);
             }
         }
     }

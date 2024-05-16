@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\serverservice\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerService\\Service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "ServerService\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs",
+              "RelativeToolTip": "ServerService\\ProjectInstaller.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:12:29.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectInstaller.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "ServerService\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ServerService\\ProjectInstaller.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:54:14.322Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServerService.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ServerService.cs",
+              "RelativeDocumentMoniker": "ServerService\\ServerService.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ServerService.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ServerService\\ServerService.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:53:30.763Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Program.cs",
+              "RelativeDocumentMoniker": "ServerService\\Program.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Program.cs",
+              "RelativeToolTip": "ServerService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:53:14.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Service1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Service1.cs",
               "RelativeDocumentMoniker": "ServerService\\Service1.cs",

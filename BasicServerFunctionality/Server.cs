@@ -10,9 +10,9 @@ using System.Linq;
 
 namespace BasicServerFunctionality
 {
-    internal class Server
+    public class Server
     {
-        private static readonly object lockObject = new object();
+        private static readonly object LockObject = new object();
         private static readonly Dictionary<Socket, StreamWriter> StreamWriterBySocket = new Dictionary<Socket, StreamWriter>();
         private static readonly Dictionary<Socket, string> UserBySocket = new Dictionary<Socket, string>();
         public void Init()
@@ -181,7 +181,7 @@ namespace BasicServerFunctionality
             var anotherStreamWriterNotOfMe = new Dictionary<Socket, StreamWriter>();
             var username = "";
 
-            lock (lockObject)
+            lock (LockObject)
             {
                 foreach (var pair in StreamWriterBySocket)
                 {
@@ -205,7 +205,7 @@ namespace BasicServerFunctionality
 
         private static void AddClientEndPointToCollections(Socket client, NetworkStream networkStream)
         {
-            lock (lockObject)
+            lock (LockObject)
             {
                 var streamWriter = new StreamWriter(networkStream, Encoding.UTF8);
                 StreamWriterBySocket.Add(client, streamWriter);
@@ -213,7 +213,7 @@ namespace BasicServerFunctionality
         }
         private static void DeleteClientEndPointToAllCollections(Socket socketClient)
         {
-            lock (lockObject)
+            lock (LockObject)
             {
                 StreamWriterBySocket.Remove(socketClient);
                 UserBySocket.Remove(socketClient);

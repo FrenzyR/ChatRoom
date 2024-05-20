@@ -16,5 +16,15 @@ namespace Forms
         {
             InitializeComponent();
         }
+
+        private void btn_signin_Click(object sender, EventArgs e)
+        {
+            Client.SignIn(txt_username.Text.ToLower, txt_password.Text);
+        }
+
+        private void btn_register_Click(object sender, EventArgs e)
+        {
+            SignUpForm.ShowDialog();
+        }
     }
 }

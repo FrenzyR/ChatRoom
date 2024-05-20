@@ -7,13 +7,12 @@ using ChatroomWithUserIdentification;
 
 namespace BasicServerFunctionality
 {
-    internal class MainTestingGrounds
+    public class MainTestingGrounds
     {
-
+        public static Server server = new Server();
         public static void Main(string[] args)
         {
-            SignUpAndSignIn signUpAndSignIn = new SignUpAndSignIn();
-            Server server = new Server();
+            SignUpAndSignIn signUpAndSignIn = new SignUpAndSignIn();            
             server.Init();
             
         }

@@ -19,11 +19,7 @@ namespace ChatroomWithUserIdentification
                 Console.WriteLine("Password is valid. Proceed!");
                 return true;
             }
-            else
-            {
-
-                Console.WriteLine("Invalid username or password. Try again.");
-            }
+            Console.WriteLine("Invalid username or password. Try again.");
 
             return false;
         }

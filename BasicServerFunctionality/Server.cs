@@ -15,12 +15,13 @@ namespace BasicServerFunctionality
         private static readonly object LockObject = new object();
         private static readonly Dictionary<Socket, StreamWriter> StreamWriterBySocket = new Dictionary<Socket, StreamWriter>();
         private static readonly Dictionary<Socket, string> UserBySocket = new Dictionary<Socket, string>();
+        public int port;
         public void Init()
         {
             int startingPort = 31416;
 
             bool portFound = false; 
-            int port = startingPort;
+            port = startingPort;
             Socket socket = null;
 
             IPEndPoint ipEndPoint = null;

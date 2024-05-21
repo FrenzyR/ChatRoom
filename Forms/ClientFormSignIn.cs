@@ -24,7 +24,7 @@ namespace Forms
 
         private void btn_register_Click(object sender, EventArgs e)
         {
-            SignUpForm.ShowDialog();
+            //SignUpForm.ShowDialog();
         }
     }
 }

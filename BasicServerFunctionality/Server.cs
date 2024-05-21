@@ -30,7 +30,7 @@ namespace BasicServerFunctionality
                 
                 try
                 {
-                    ipEndPoint = new IPEndPoint(IPAddress.Any, port);
+                    ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), port);
                     portFound = true;
                 }
                 catch (SocketException)

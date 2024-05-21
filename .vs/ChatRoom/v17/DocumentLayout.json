@@ -7,32 +7,40 @@
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\basicserverfunctionality\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|solutionrelative:basicserverfunctionality\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\basicserverfunctionality\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|solutionrelative:basicserverfunctionality\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\clientformsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\clientformsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\clientformsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\clientformsignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\forms\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\basicserverfunctionality\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651C40F5-349F-4E6C-B7ED-9464A6AA9BEF}|BasicServerFunctionality\\BasicServerFunctionality.csproj|solutionrelative:basicserverfunctionality\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|solutionrelative:serverservice\\serverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B64FCD9-C033-4B4C-984C-EACB516EF002}|ServerService\\ServerService.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\serverservice\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,11 +66,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "SignUpForm.cs",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "Forms\\SignUpForm.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.cs",
+              "RelativeToolTip": "Forms\\SignUpForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:48:47.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUpForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\SignUpForm.Designer.cs",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.Designer.cs",
+              "RelativeToolTip": "Forms\\SignUpForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:48:41.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\BasicServerFunctionality\\Main.cs",
               "RelativeDocumentMoniker": "BasicServerFunctionality\\Main.cs",
@@ -70,30 +104,33 @@
               "RelativeToolTip": "BasicServerFunctionality\\Main.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T10:10:45.254Z"
+              "WhenOpened": "2024-05-20T10:10:45.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\BasicServerFunctionality\\Server.cs",
               "RelativeDocumentMoniker": "BasicServerFunctionality\\Server.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\BasicServerFunctionality\\Server.cs",
               "RelativeToolTip": "BasicServerFunctionality\\Server.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T10:05:06.132Z"
+              "WhenOpened": "2024-05-20T10:05:06.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SignUpForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.cs",
               "RelativeDocumentMoniker": "Forms\\SignUpForm.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\SignUpForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T09:51:40.375Z"
+              "WhenOpened": "2024-05-20T09:51:40.375Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -103,49 +140,52 @@
               "RelativeDocumentMoniker": "Forms\\Client.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\Client.cs",
               "RelativeToolTip": "Forms\\Client.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAvAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T08:28:42.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ClientFormSignIn.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\ClientFormSignIn.cs",
               "RelativeDocumentMoniker": "Forms\\ClientFormSignIn.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\ClientFormSignIn.cs",
               "RelativeToolTip": "Forms\\ClientFormSignIn.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBoAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:08:37.389Z"
+              "WhenOpened": "2024-05-20T07:08:37.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ClientFormSignIn.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\ClientFormSignIn.cs",
               "RelativeDocumentMoniker": "Forms\\ClientFormSignIn.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\ClientFormSignIn.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\ClientFormSignIn.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:33:20.476Z"
+              "WhenOpened": "2024-05-16T08:33:20.476Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\Program.cs",
               "RelativeDocumentMoniker": "Forms\\Program.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\Program.cs",
               "RelativeToolTip": "Forms\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:23:35.056Z"
+              "WhenOpened": "2024-05-16T08:23:35.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ProjectInstaller.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs",
               "RelativeDocumentMoniker": "ServerService\\ProjectInstaller.cs",
@@ -157,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ProjectInstaller.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ProjectInstaller.cs",
               "RelativeDocumentMoniker": "ServerService\\ProjectInstaller.cs",
@@ -168,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ServerService.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\ServerService.cs",
               "RelativeDocumentMoniker": "ServerService\\ServerService.cs",
@@ -179,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Program.cs",
               "RelativeDocumentMoniker": "ServerService\\Program.cs",
@@ -191,12 +231,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Service1.cs [Dise\u00F1o]",
+              "DocumentIndex": 13,
+              "Title": "Service1.cs",
               "DocumentMoniker": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Service1.cs",
               "RelativeDocumentMoniker": "ServerService\\Service1.cs",
-              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Service1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ServerService\\Service1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\ServerService\\Service1.cs",
+              "RelativeToolTip": "ServerService\\Service1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T05:42:51.911Z"
             }

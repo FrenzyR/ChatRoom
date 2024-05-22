@@ -26,14 +26,14 @@ namespace Forms
             using (StreamReader sr = new StreamReader(ns))
             using (StreamWriter sw = new StreamWriter(ns))
             {
-                msg = sr.ReadLine();
+                msg = "";
                 Console.WriteLine(msg);
                 while (true)
                 {
                     userMsg = Console.ReadLine();
                     sw.WriteLine(userMsg);
                     sw.Flush();
-                    msg = sr.ReadLine();
+                    
                     Console.WriteLine(msg);
                 }
             }
@@ -41,11 +41,10 @@ namespace Forms
 
         public static void OpenConnection()
         {
-            const string IP_SERVER = "127.0.0.10";
+            
             string msg;
             string userMsg;
-            IPEndPoint ie = new IPEndPoint(IPAddress.Parse(IP_SERVER), usedPort);
-            Console.WriteLine("Starting client. Press a key to init connection");
+            IPEndPoint ie = new IPEndPoint(IPAddress.Any, usedPort);
 
             Console.ReadKey();
             Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);

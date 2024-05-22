@@ -12,16 +12,18 @@ namespace ChatroomWithUserIdentification
         public bool SignIn(string username, string password)
         {
 
-            
+
 
             if (VerifyPasswordFromDatabase(username, password))
             {
                 Console.WriteLine("Password is valid. Proceed!");
                 return true;
             }
+
             Console.WriteLine("Invalid username or password. Try again.");
 
             return false;
+
         }
 
         public bool CreateNewAccount(string newUsername, string newPassword)

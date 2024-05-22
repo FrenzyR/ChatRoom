@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|c:\\users\\operario44\\riderprojects\\chatroom\\forms\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|C:\\Users\\operario44\\RiderProjects\\ChatRoom\\forms\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A310939-3D5F-4EDE-A76B-4D1CBFDB9B8B}|Forms\\Forms.csproj|solutionrelative:forms\\signupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -78,8 +78,7 @@
               "RelativeToolTip": "Forms\\SignUpForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:48:47.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T07:48:47.999Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Forms\\SignUpForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:48:41.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T07:48:41.645Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "BasicServerFunctionality\\Main.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T10:10:45.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T10:10:45.254Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "BasicServerFunctionality\\Server.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T10:05:06.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T10:05:06.132Z"
             },
             {
               "$type": "Document",
@@ -129,8 +125,7 @@
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\SignUpForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\SignUpForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T09:51:40.375Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-20T09:51:40.375Z"
             },
             {
               "$type": "Document",
@@ -140,7 +135,7 @@
               "RelativeDocumentMoniker": "Forms\\Client.cs",
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\Client.cs",
               "RelativeToolTip": "Forms\\Client.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCsAAAAwAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswCMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T08:28:42.811Z",
               "EditorCaption": ""
@@ -155,8 +150,7 @@
               "RelativeToolTip": "Forms\\ClientFormSignIn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:08:37.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:08:37.389Z"
             },
             {
               "$type": "Document",
@@ -167,8 +161,7 @@
               "ToolTip": "C:\\Users\\operario44\\RiderProjects\\ChatRoom\\Forms\\ClientFormSignIn.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\ClientFormSignIn.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:33:20.476Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-16T08:33:20.476Z"
             },
             {
               "$type": "Document",
@@ -180,8 +173,7 @@
               "RelativeToolTip": "Forms\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:23:35.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T08:23:35.056Z"
             },
             {
               "$type": "Document",

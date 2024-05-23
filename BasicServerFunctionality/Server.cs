@@ -16,12 +16,15 @@ namespace BasicServerFunctionality
         private static readonly Dictionary<Socket, StreamWriter> StreamWriterBySocket = new Dictionary<Socket, StreamWriter>();
         private static readonly Dictionary<Socket, string> UserBySocket = new Dictionary<Socket, string>();
         public int port;
+        public IPAddress AnyIPAddress;
+
         public void Init()
         {
             int startingPort = 31416;
 
             bool portFound = false; 
             port = startingPort;
+            AnyIPAddress = IPAddress.Any;
             Socket socket = null;
 
             IPEndPoint ipEndPoint = null;
@@ -30,7 +33,7 @@ namespace BasicServerFunctionality
                 
                 try
                 {
-                    ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), port);
+                    ipEndPoint = new IPEndPoint(AnyIPAddress, port);
                     portFound = true;
                 }
                 catch (SocketException)

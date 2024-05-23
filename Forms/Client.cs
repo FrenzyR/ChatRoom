@@ -16,12 +16,42 @@ namespace Forms
         public static int usedPort;
         internal static void SignIn(Func<string> toLower, string text)
         {
-            OpenConnection();
+            
             string msg;
             string userMsg;
-            server = MainTestingGrounds.server;
-            usedPort = server.port;
+            server = Program.server;
+            if (server == null)
+            {
+                Console.WriteLine("Server instance is null.");
+                return;
+            }
+            usedPort = Program.port;
+
+            
+            IPAddress usedIPAddress = Program.address;
+            if (usedIPAddress == null)
+            {
+                Console.WriteLine("Server IPAddress is not set.");
+                return;
+            }
+            IPEndPoint ie = new IPEndPoint(usedIPAddress, usedPort);
+
+
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            try
+            {
+                serverSocket.Connect(ie);
+            }
+            catch (SocketException e)
+            {
+                Console.WriteLine("Error connection: {0}\nError code: {1}({2})", e.Message, (SocketError)e.ErrorCode, e.ErrorCode);
+
+                return;
+            }
+
+            IPEndPoint ieServer = (IPEndPoint)serverSocket.RemoteEndPoint;
+            Console.WriteLine("Server on IP:{0} at port {1}", ieServer.Address, ieServer.Port);
+
             using (NetworkStream ns = new NetworkStream(serverSocket))
             using (StreamReader sr = new StreamReader(ns))
             using (StreamWriter sw = new StreamWriter(ns))
@@ -30,8 +60,8 @@ namespace Forms
                 Console.WriteLine(msg);
                 while (true)
                 {
-                    userMsg = Console.ReadLine();
-                    sw.WriteLine(userMsg);
+                    
+                    sw.WriteLine("hey");
                     sw.Flush();
                     
                     Console.WriteLine(msg);
@@ -44,23 +74,7 @@ namespace Forms
             
             string msg;
             string userMsg;
-            IPEndPoint ie = new IPEndPoint(IPAddress.Any, usedPort);
-
-            Console.ReadKey();
-            Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            try
-            {
-                server.Connect(ie);
-            }
-            catch (SocketException e)
-            {
-                Console.WriteLine("Error connection: {0}\nError code: {1}({2})", e.Message, (SocketError)e.ErrorCode, e.ErrorCode);
-                Console.ReadKey();
-                return;
-            }
-
-            IPEndPoint ieServer = (IPEndPoint)server.RemoteEndPoint;
-            Console.WriteLine("Server on IP:{0} at port {1}", ieServer.Address, ieServer.Port);
+            
 
            
         }

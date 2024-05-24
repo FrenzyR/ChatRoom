@@ -34,7 +34,7 @@ namespace Forms
                 Console.WriteLine("Server IPAddress is not set.");
                 return;
             }
-            IPEndPoint ie = new IPEndPoint(usedIPAddress, usedPort);
+            IPEndPoint ie = new IPEndPoint(IPAddress.Any, usedPort);
 
 
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
